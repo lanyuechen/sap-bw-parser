@@ -1,0 +1,283 @@
+{
+  "E_AXIS_INFO": {
+    "item": [
+      {
+        "NCHARS": 1,
+        "NCOORDS": 1,
+        "CHARS": {
+          "item": {
+            "CHAPRSNT": 1,
+            "CHATYP": 0,
+            "ATTRINM": "",
+            "VERSION": "",
+            "CHANM": "003N7KL6SFP3Y4RO0MP2OFSB5",
+            "HIENM": "",
+            "DATETO": "0000-00-00",
+            "CAPTION": "关键指标"
+          }
+        },
+        "AXIS": "000"
+      },
+      {
+        "NCHARS": 1,
+        "NCOORDS": 2,
+        "CHARS": {
+          "item": {
+            "CHAPRSNT": 1,
+            "CHATYP": 0,
+            "ATTRINM": "",
+            "VERSION": "",
+            "CHANM": "003N7KL6SFP3Y4RO0MP2OF9CH",
+            "HIENM": "",
+            "DATETO": "0000-00-00",
+            "CAPTION": "结构"
+          }
+        },
+        "AXIS": "001"
+      }
+    ]
+  },
+  "E_TXT_SYMBOLS": {
+    "item": [
+      {
+        "SYM_CAPTION": "ZRP_D_S_0CALMONTH_O_1",
+        "SYM_TYPE": "V",
+        "SYM_OUTPUTLEN": "000016",
+        "SYM_NAME": "VARIABLE_ZRP_D_S_0CALMONTH_O_1",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "2018.01..2018.06",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "V"
+      },
+      {
+        "SYM_CAPTION": "作者",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000012",
+        "SYM_NAME": "AUTHOR",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "ZDDIC",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "最后更改者",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000012",
+        "SYM_NAME": "MODUSER",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "ZDDIC",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "信息提供者",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000030",
+        "SYM_NAME": "INFOCUBE",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "ZCUBE01",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "查询技术名称",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000030",
+        "SYM_NAME": "REPTNAME",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "ZDEMO_Q5",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "查询描述",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000060",
+        "SYM_NAME": "REPTXTLG",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "单元格",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "关键日期",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000010",
+        "SYM_NAME": "SRDATE",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "2018.10.25",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "更改时间",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000010",
+        "SYM_NAME": "MODTIME",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "2018.07.21 18:28:43",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "当前用户",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000012",
+        "SYM_NAME": "SYUSER",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "ZDDIC",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "上一次刷新",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000012",
+        "SYM_NAME": "SYUZEIT",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "2018.10.25 06:38:52",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "数据的状态",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000019",
+        "SYM_NAME": "ROLLUPTIME",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "2018.07.21 12:09:52",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "数据相关性 (日期)",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000010",
+        "SYM_NAME": "ROLLUP_DATE",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "2018.07.21",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "数据相关性 (时间)",
+        "SYM_TYPE": "C",
+        "SYM_OUTPUTLEN": "000008",
+        "SYM_NAME": "ROLLUP_TIME",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "12:09:52",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      },
+      {
+        "SYM_CAPTION": "日历年/月",
+        "SYM_TYPE": "F",
+        "SYM_OUTPUTLEN": "000016",
+        "SYM_NAME": "FILTER_0CALMONTH",
+        "SYM_TIMEDEP": "",
+        "SYM_BEGIN_GROUP": "X",
+        "SYM_VALUE": "2018.01..2018.06",
+        "SYM_FS": "00",
+        "SYM_VALUE_TYPE": "T"
+      }
+    ]
+  },
+  "E_AXIS_DATA": {
+    "item": [
+      {
+        "SET": {
+          "item": {
+            "DRILLSTATE": "",
+            "ATTRIBUTES": "",
+            "TUPLE_ORDINAL": "000000",
+            "OPT": "",
+            "CHAVL": "003N7KL6SFP3Y4RO0MP2OFYMP",
+            "TLEVEL": "00",
+            "CHANM": "003N7KL6SFP3Y4RO0MP2OFSB5",
+            "CHAVL_EXT": "",
+            "NIOBJNM": "",
+            "SIGN": "",
+            "CAPTION": "产量"
+          }
+        },
+        "AXIS": "000"
+      },
+      {
+        "SET": {
+          "item": [
+            {
+              "DRILLSTATE": "",
+              "ATTRIBUTES": "",
+              "TUPLE_ORDINAL": "000000",
+              "OPT": "",
+              "CHAVL": "003N7KL6SFP3Y4RO5YBZULIXD",
+              "TLEVEL": "00",
+              "CHANM": "003N7KL6SFP3Y4RO0MP2OF9CH",
+              "CHAVL_EXT": "",
+              "NIOBJNM": "",
+              "SIGN": "",
+              "CAPTION": "全国计划"
+            },
+            {
+              "DRILLSTATE": "",
+              "ATTRIBUTES": "",
+              "TUPLE_ORDINAL": "000001",
+              "OPT": "",
+              "CHAVL": "003N7KL6SFP3Y4RO5YBZUM1W1",
+              "TLEVEL": "00",
+              "CHANM": "003N7KL6SFP3Y4RO0MP2OF9CH",
+              "CHAVL_EXT": "",
+              "NIOBJNM": "",
+              "SIGN": "",
+              "CAPTION": "全国"
+            }
+          ]
+        },
+        "AXIS": "001"
+      }
+    ]
+  },
+  "E_CELL_DATA": {
+    "item": [
+      {
+        "CURRENCY": "",
+        "UNIT": "KG",
+        "BACK_COLOR": "00",
+        "VALUE": 230224.7640000001,
+        "FORMATTED_VALUE": "230,225 KG",
+        "NUM_SCALE": 0,
+        "NUM_PREC": 0,
+        "MWKZ": "M",
+        "CELL_ORDINAL": "000000",
+        "CELL_STATUS": "",
+        "VALUE_TYPE": ""
+      },
+      {
+        "CURRENCY": "",
+        "UNIT": "KG",
+        "BACK_COLOR": "00",
+        "VALUE": 209295.2400000001,
+        "FORMATTED_VALUE": "209,295 KG",
+        "NUM_SCALE": 0,
+        "NUM_PREC": 0,
+        "MWKZ": "M",
+        "CELL_ORDINAL": "000001",
+        "CELL_STATUS": "",
+        "VALUE_TYPE": ""
+      }
+    ]
+  }
+}

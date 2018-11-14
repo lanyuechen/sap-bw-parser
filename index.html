@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SAP Parser</title>
+    <style>
+        table {
+            border-spacing: 1px;
+        }
+        table th, table td {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+
+<div id="filter">
+
+</div>
+<table id="table">
+
+</table>
+
+<pre id="data"></pre>
+
+<script src="./parser.js"></script>
+<script>
+    const n = document.getElementById('data');
+
+    const s = location.search || '?query=q2';
+    const query = s.slice(1).split('=')[1];
+
+    fetch(`./data/${query}.json`).then(function(res) {
+        return res.json();
+    }).then(function(data) {
+        const { th, td, filter } = Parser.parse(data);
+
+        renderFilter(filter);
+        renderTable(th, td);
+
+        n.innerHTML = JSON.stringify({ th, td }, undefined, 2);
+        console.log('[origin data]', data);
+    });
+
+    function renderTable(th, td) {
+        const table = document.getElementById('table');
+        const trs = [];
+
+        const tds = [];
+        th.map(function(d) {
+            tds.push(`<th>${d.name}</th>`);
+        });
+        trs.push(`<tr>${tds.join('')}</tr>`);
+
+        td.map(function(d) {
+            const tds = [];
+            th.map(function(h) {
+                tds.push(`<td>${d[h.field]}</td>`);
+            });
+            trs.push(`<tr>${tds.join('')}</tr>`)
+        });
+
+        table.innerHTML = trs.join('');
+    }
+
+    function renderFilter(filter) {
+        const f = document.getElementById('filter');
+        const li = filter.map(function(d) {
+            return `<li>${d.name}: ${d.key} = ${d.value}</li>`;
+        });
+        f.innerHTML = `<ul>${li.join('')}</ul>`;
+    }
+
+</script>
+</body>
+</html>
